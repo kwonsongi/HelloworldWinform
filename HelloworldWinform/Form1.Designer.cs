@@ -33,12 +33,15 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("나눔고딕코딩", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button1.ForeColor = System.Drawing.SystemColors.WindowFrame;
             this.button1.Location = new System.Drawing.Point(207, 384);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(179, 45);
             this.button1.TabIndex = 0;
             this.button1.Text = "반가워요.";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 

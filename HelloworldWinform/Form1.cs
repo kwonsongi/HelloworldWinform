@@ -16,5 +16,11 @@ namespace HelloworldWinform
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("어서오세요", "환영인사");
+
+        }
     }
 }
